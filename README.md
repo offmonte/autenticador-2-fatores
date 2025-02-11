@@ -1,4 +1,4 @@
-# Sistema de Autenticação
+# Sistema de Autenticação de 2 Fatores
 
 Sistema de autenticação em Python que permite ao usuário realizar o login com autenticação.
 
