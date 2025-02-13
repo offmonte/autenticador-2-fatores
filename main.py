@@ -47,7 +47,8 @@ def main():
                             sleep()
 
                         else:
-                            print(autenticador.Autenticador.codigo.now())
+                            #Caso não tenha seguido os passos do README descomente a linha abaixo para ter o codigo do altenticador 
+                            #print(autenticador.Autenticador.codigo.now())
                             codigo_usuario = input("Codigo de autenticação: ")
 
                             if autenticador.Autenticador.codigo.verify(codigo_usuario):
