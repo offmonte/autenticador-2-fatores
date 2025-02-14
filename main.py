@@ -34,6 +34,7 @@ def main():
             
             match choice:
                 case 1:
+                    cls()
                     if login_salvo == "" or senha_salvo == "":
                         print("Não há conta cadastrada")
                         sleep()
@@ -60,6 +61,7 @@ def main():
                                 sleep()
 
                 case 2:
+                    cls()
                     login_salvo = input("Crie o login: ")
                     senha_salvo = input("Crie a senha: ")
 
